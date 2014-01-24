@@ -1,4 +1,7 @@
 dotfiles
 ========
 
-my dotfiles
+
+tigrc
+-----
+tig configuration file
