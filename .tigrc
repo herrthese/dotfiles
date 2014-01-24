@@ -1,3 +1,4 @@
-set show-refs = no
-set show-rev-graph = yes
-set line-graphics = ascii
+set show-refs = no		# Show references?
+set show-rev-graph = yes	# Show revision graph?
+set line-graphics = ascii	# Show graphics style?
+set author-width = 23		# Set author-width.
