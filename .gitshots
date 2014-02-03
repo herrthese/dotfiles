@@ -3,7 +3,7 @@
 # Take a photo of yourself every time you commit
 # Install imagesnap via homebrew:	brew install imagesnap
 # Create ~/.gitshots directory: 	mkdir ~/.gitshots
-# copy this script to:            ~/.git/hooks/post-commit
+# copy this script to:              ~/.git/hooks/post-commit
 ###################
 file="~/.gitshots/#{Time.now.to_i}.jpg"
 unless File.directory?(File.expand_path("../../rebase-merge", __FILE__))
