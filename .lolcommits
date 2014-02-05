@@ -1,0 +1,12 @@
+#!/bin/sh
+###################
+# Take a photo of yourself every time you commit
+# Install imagemagick via homebrew:	brew install imagemagick
+# Install lolcommits via gem:       gem install lolcommits
+# ~/.lolcommits directory will create automatically
+# copy this script to:              <_project_>/.git/hooks/post-commit
+###################
+### lolcommits hook (begin) ###
+export PATH="/Users/Herrthese/.rvm/rubies/ruby-1.9.3-p362/bin/ruby:$PATH"
+lolcommits --capture
+###  lolcommits hook (end)  ###
