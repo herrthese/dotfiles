@@ -9,4 +9,7 @@
 ### lolcommits hook (begin) ###
 export PATH="/Users/Herrthese/.rvm/rubies/ruby-1.9.3-p362/bin/ruby:$PATH"
 lolcommits --capture
+# for animated pictures
+# ffmpeg required
+# lolcommits --capture --delay=5 --animate=4 --fork
 ###  lolcommits hook (end)  ###
