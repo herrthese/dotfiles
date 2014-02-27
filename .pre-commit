@@ -1,0 +1,16 @@
+#!/bin/sh
+FILES=$(git diff-index --cached HEAD --name-only)
+# Validate: puppet validate -> *.pp files
+# Validate: rubocop lint -> *.rb files
+for file in $FILES; do
+  case "$file" in
+    *.pp*)
+      echo "PUPPET VALIDATE: $file"
+      puppet parser validate $file
+    ;;
+    *.rb*)
+      echo "RUBOCOP LINT: $file"
+      rubocop -l -f s $file
+    ;;
+  esac
+done
