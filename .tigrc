@@ -1,4 +1,8 @@
-set show-refs = no          # Show references?
-set show-rev-graph = yes    # Show revision graph?
-set line-graphics = ascii   # Show graphics style?
-set author-width = 23       # Set author-width.
+set show-refs = no              # Show references?
+set show-rev-graph = yes        # Show revision graph?
+set line-graphics = ascii       # Show graphics style?
+set author-width = 23           # Set author-width.
+set show-line-numbers = yes     # Show line numbers?
+set line-number-interval = 1    # Define Interval 4 Line-Number
+set show-id = yes               # Show commit/tree ID?
+set id-width = 7                # Number of characters to show from commit/tree ID
